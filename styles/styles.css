@@ -5,21 +5,28 @@ header, .grid, footer {
   
   nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
   
   nav a {
-    color: rgb(251, 251, 251);
+    color: rgb(255, 255, 255);
     display: block; 
-    padding: 20px;
+    /* padding: 20px; */
     text-decoration: none;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+  
   }
   
   h1 {
-    color: steelblue;
+    color: rgb(75, 106, 137);
+    border-bottom: 1px solid rgb(31, 135, 114);
   }
   
   .grid {
