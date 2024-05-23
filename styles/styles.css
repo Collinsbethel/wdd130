@@ -1,57 +1,83 @@
-nav {
-    background-color : steelblue;
-    padding : 10px;
-    }
-    
-    nav a {
-    color : white;
-    display : block;
-    padding : 20px;
-    }
-
-    h1 {
-    color : steelblue;
-    }
-
-    main img {
-    width : 150px;
-    height : auto;
-    border : steelblue solid 1px;
-    padding : 2px;
-    box-shadow : 0 0 30px gray;
-    }
-    
-    main {
-    max-width : 840px;
-    }
-
-    aside {
-    width : 20rem;
-    margin : 1rem;
-    border : rgb(0, 0, 0, 0.2) solid 1px;
-    padding : 1rem;
-    background-color : #eee;
-    color : #333;
-    text-align : center;
-    }
-
-    aside img {
-    width : 200px;
-    height : auto;
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    display: block; 
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: steelblue;
+  }
+  
+  .grid {
+    display: grid;
+    align-items: center;
+  }
+  
+  main {
+    grid-column: 2/3;
+    margin: 1rem;
+  }
+  
+  aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+ 
+  main {
+    max-width: 840px;
+    margin: 0 auto; 
+  }
+  
+  main img {
+    width: 150px;
+    height: auto;
+    border: steelblue solid 1px;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+  
+  aside {
+    width: 20rem;
+    margin: 1rem;
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+  }
+  
+  aside img {
     width: 200px;
     height: auto;
-    }
-
-    p {
-        padding : 0;
-    }
-
-    footer{
-        margin-top: 15px;
-        border-top: 1px solid #000;
-        text-align: center;
-    }
-
+  }
+  
+  p {
+    padding: 0;
+  }
+  
+  footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+  }
+  
 
     /* ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
