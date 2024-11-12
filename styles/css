@@ -1,0 +1,98 @@
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    display: block; 
+    /* padding: 20px; */
+    text-decoration: none;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+  
+  }
+  
+  h1 {
+    color: rgb(75, 106, 137);
+    border-bottom: 1px solid rgb(31, 135, 114);
+  }
+  
+  .grid {
+    display: grid;
+    align-items: center;
+  }
+  
+  main {
+    grid-column: 2/3;
+    margin: 1rem;
+  }
+  
+  aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+ 
+  main {
+    max-width: 840px;
+    margin: 0 auto; 
+  }
+  
+  main img {
+    width: 150px;
+    height: auto;
+    border: steelblue solid 1px;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+  
+  aside {
+    width: 20rem;
+    margin: 1rem;
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+  }
+  
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  
+  p {
+    padding: 0;
+  }
+  
+  footer {
+    margin-top: 15px;
+    border-top: 1px solid #8e6d6d;
+    text-align: center;
+  }
+
+  .box {
+    margin: 1rem;
+    border: 1px solid rgb(23, 22, 22);
+    padding: 1rem;
+    background-color: rgb(220, 213, 213);
+    color: #0b0b0b;
+    
+  }
+  
+/* ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
