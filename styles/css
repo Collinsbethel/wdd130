@@ -79,7 +79,6 @@ header, .grid, footer {
   
   p {
     padding: 0;
-<<<<<<< HEAD
 }
 
 .logo {
@@ -161,13 +160,6 @@ footer .social img {
 
 /* ------------------------- ABOUT US PAGE --------------------------- */
 .title-aboutus {
-=======
-  }
-  
-  footer {
-    margin-top: 15px;
-    border-top: 1px solid #8e6d6d;
->>>>>>> 9f718682b83f4717ed00272d6ba02a37727d0384
     text-align: center;
   }
 
